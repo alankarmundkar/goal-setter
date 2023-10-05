@@ -1,0 +1,71 @@
+@import '~/src/sass/style.scss';
+
+
+.home-contaier {
+  padding-top: 80px;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  color: #222222;
+}
+
+.card {
+    margin: 0 auto;
+    width: 1140px;
+}
+.form{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #CCC;
+}
+
+.formElement {
+  flex: 1;
+}
+.input {
+  background-color: #f2f2f2;
+}
+
+.MuiOutlinedInput-input {
+  background: #FFF;
+}
+
+.getGoals{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.goals-list {
+  list-style: none;
+}
+
+.goals-list li {
+  padding: 20px;
+  border: 1px solid #CCC;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 4px #f2f2f2;
+}
+.goal-title {
+  padding-bottom: 10px;
+  color: #222222;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.goals-description {
+  color: #222222;
+  font-weight: normal;
+  font-size: 16px;
+}
